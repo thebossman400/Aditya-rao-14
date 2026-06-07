@@ -17,16 +17,19 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
+    
     // IMPORTANT: Yahan apna asli 15-digit ka Pixel ID daalein
     fbq('init', '1920427701962649'); 
     fbq('track', 'PageView');
     </script>
+    
     <!-- NoScript Backup Code -->
     <noscript>
         <img height="1" width="1" style="display:none" 
              src="https://www.facebook.com/tr?id=1920427701962649&ev=PageView&noscript=1"/>
     </noscript>
     <!-- ======================================================= -->
+
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -73,8 +76,24 @@
             font-size: 14px;
             color: #c9d1d9;
             text-align: left;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             line-height: 1.4;
+        }
+        .business-contact {
+            font-size: 13px;
+            color: #8b949e;
+            margin-bottom: 25px;
+            display: block;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .business-contact:hover {
+            color: #58a6ff;
+        }
+        .business-contact span {
+            color: #58a6ff;
+            text-decoration: underline;
+            font-weight: 500;
         }
         .btn-telegram {
             display: inline-block;
@@ -110,6 +129,12 @@
             📌 <b>🎯 Expert Tip:</b> Sahi match script aur loss-cut/book-set ke bina trading hamesha risky hoti hai. 100% accurate toss, match predictions aur session updates paane ke liye abhi join karein!
         </div>
         
+        <!-- DEALER PRIVATE MESSAGE LINK (Clean & Professional Text) -->
+        <!-- IMPORTANT: Niche "YOUR_PERSONAL_USERNAME" ko hata kar apna asli Telegram username daalein -->
+        <a href="https://t.me/@AdityaRao06" class="business-contact" target="_blank">
+            💼 For Business & Promotion: <span>DM on Telegram</span>
+        </a>
+        
         <!-- BUTTON WITH PERFECT LEAD TRACKING FUNCTION -->
         <button class="btn-telegram" onclick="trackLeadAndGo()">🚀 JOIN TELEGRAM CHANNEL</button>
     </div>
@@ -125,7 +150,7 @@
             
             // 400ms ka safe delay taaki tracking miss na ho
             setTimeout(function() {
-                // IMPORTANT: Yahan apna asli Telegram link daalein
+                // IMPORTANT: Yahan apna asli Telegram channel ka link daalein
                 window.location.href = "https://t.me/+JlBRxO0z3QM4NjNl";
             }, 400); 
         }
